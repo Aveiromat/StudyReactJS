@@ -1,8 +1,10 @@
-/* Form.module.css */
-
 .container {
-    text-align: center;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 100vw;
 }
 
 form {
@@ -40,7 +42,6 @@ button:hover {
     text-align: center;
 }
 
-/* Adicione estilos específicos para a classificação, se desejar */
 .classificacao {
     font-weight: bold;
     color: #333;

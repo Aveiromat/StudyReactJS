@@ -33,6 +33,8 @@ const App = () => {
                     Altura (cm):
                     <input
                         type="number"
+                        min="0"
+                        max="230"
                         value={altura}
                         onChange={(e) => setAltura(e.target.value)}
                     />
@@ -41,6 +43,8 @@ const App = () => {
                     Peso (kg):
                     <input
                         type="number"
+                        min="0"
+                        max="300"
                         value={peso}
                         onChange={(e) => setPeso(e.target.value)}
                     />
